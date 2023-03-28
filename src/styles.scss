@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+
+app-loader {
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  background-color: rgba($color: #191919, $alpha: 0.8);
+  pointer-events: none;
+  display: grid;
+}
